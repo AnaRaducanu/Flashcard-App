@@ -17,3 +17,18 @@ form {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
+footer {
+  text-align: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: large;
+}
+
+#footer-logo {
+  height: 1.1rem;
+}
+
+
+
+
+
