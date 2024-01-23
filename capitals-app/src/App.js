@@ -2,6 +2,7 @@ import Header from "./Header.js";
 import Form from "./Form.js";
 import Flashcards from "./Flashcards.js";
 import Footer from "./Footer.js";
+import { useState } from "react";
 
 export const flashCardArray = [
   {
@@ -63,15 +64,39 @@ export const flashCardArray = [
       "La Rambla in Barcelona is a vibrant avenue celebrated for its distinctive architecture, bustling street life, and diverse cultural attractions, making it a focal point for locals and tourists alike.",
   },
 ];
-function App() {
+export default function App() {
+  const [flashcardObjects, setflashcardObjects] = useState(flashCardArray);
+
+  function deleteFlashcardObjectById(idToDelete) {
+    setflashcardObjects((prev) => {
+      return prev.filter((obj) => obj.id !== idToDelete);
+    });
+  }
+  function addFlashcardObject(flashcardObject) {
+    setflashcardObjects((prev) => {
+      const created = {
+        id: window.crypto.randomUUID(),
+        question: flashcardObject.question,
+        answer: flashcardObject.answer,
+      };
+      const appended = prev.concat(created);
+      return appended;
+    });
+  }
+
   return (
     <>
       <Header />
-      <Form />
-      <Flashcards />
+      <Form addFlashcard={addFlashcardObject} />
+      <Flashcards
+        flashcardList={flashcardObjects}
+        deleteFlashcard={deleteFlashcardObjectById}
+      />
       <Footer />
     </>
   );
 }
 
-export default App;
+
+
+
