@@ -26,7 +26,7 @@ export default function Form(props) {
     <form
       onSubmit={handleSubmit}
       className="formStyle"
-      style={{ backgroundColor: "#232731" }}
+      style={{ backgroundColor: "#6C5B7B" }}
     >
       <label
         style={{ color: "white", columnWidth: "3rem", fontSize: "1.3rem" }}
@@ -38,7 +38,7 @@ export default function Form(props) {
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
         style={{
-          backgroundColor: "#2f323c",
+          backgroundColor: "#C06C84",
           border: "3px solid #31343e",
           borderRadius: "9px",
           width: "19rem",
@@ -55,7 +55,7 @@ export default function Form(props) {
         value={answer}
         onChange={(e) => setAnswer(e.target.value)}
         style={{
-          backgroundColor: "#2f323c",
+          backgroundColor: "#C06C84",
           border: "3px solid #31343e",
           borderRadius: "9px",
           width: "19rem",
@@ -66,7 +66,7 @@ export default function Form(props) {
         onClick={handleSubmit}
         style={{
           color: "white",
-          backgroundColor: "#07B1DF",
+          backgroundColor: "#F67280",
           borderRadius: "9px",
           border: "3px solid #07B1DF",
           height: "45px",
