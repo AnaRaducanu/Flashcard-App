@@ -63,6 +63,18 @@ export const flashCardArray = [
     answer:
       "La Rambla in Barcelona is a vibrant avenue celebrated for its distinctive architecture, bustling street life, and diverse cultural attractions, making it a focal point for locals and tourists alike.",
   },
+  {
+    id: "q11",
+    question: "What is the significance of the Anne Frank House in Amsterdam?",
+    answer:
+      "The Anne Frank House in Amsterdam holds historical importance as it preserves the hiding place where Anne Frank, a Jewish girl, wrote her famous diary during World War II. The museum serves as a poignant reminder of the Holocaust and the impact of intolerance.",
+  },
+  {
+    id: "q12",
+    question: "What iconic structure stands at the heart of Rome, Italy?",
+    answer:
+      "The Colosseum, located in the center of Rome, is an ancient amphitheater known for its historical significance and architectural grandeur. It was used for gladiatorial contests and public spectacles in ancient Rome.",
+  },
 ];
 export default function App() {
   const [flashcardObjects, setflashcardObjects] = useState(flashCardArray);

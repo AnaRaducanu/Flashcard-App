@@ -7,7 +7,7 @@ export default function Header() {
       </h1>
       <p style={{ color: "white", margin: "0", fontSize: "25px" }}>
         {" "}
-        🧠Expand Your Capitals Knowlegde, One Flashcard at a Time!🐌{" "}
+        🧠Expand Your Cities Knowlegde, One Flashcard at a Time!🐌{" "}
       </p>
     </header>
   );
