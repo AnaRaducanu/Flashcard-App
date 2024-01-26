@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Flashcard(props) {
+export default function FlashcardItem(props) {
   const [flipped, setFlipped] = useState(false);
 
   const handleClick = () => {
@@ -14,7 +14,7 @@ export default function Flashcard(props) {
         backgroundColor: "#323949",
         height: "11rem",
         width: "20rem",
-        borderRadius: "5px",
+
         color: "white",
         fontSize: "18px",
         display: "flex" /* Enable flexbox layout */,
@@ -48,21 +48,24 @@ export default function Flashcard(props) {
       >
         x
       </button>
-      <p
-        style={{
-          fontSize: "36px",
-          marginBottom: "0.2rem",
-          marginTop: "0.2rem",
-        }}
-      >
-        🤔
-      </p>
+
       {flipped ? (
         <p style={{ textAlign: "center", fontSize: "15px" }}>
           {props.flashcard.answer}
         </p>
       ) : (
-        <p style={{ textAlign: "center" }}>{props.flashcard.question}</p>
+        <>
+          <p
+            style={{
+              fontSize: "36px",
+              marginBottom: "0.2rem",
+              marginTop: "0.2rem",
+            }}
+          >
+            🤔
+          </p>
+          <p style={{ textAlign: "center" }}>{props.flashcard.question}</p>
+        </>
       )}
     </div>
   );
