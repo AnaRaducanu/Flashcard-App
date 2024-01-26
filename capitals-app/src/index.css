@@ -16,6 +16,41 @@ form {
   text-align: center;
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+  .formStyle {
+    display: flex;
+    align-items: center; /* Align items vertically to the center */
+    justify-content: center; /* Align items horizontally to the center */
+    gap: 15px; /* Adjust the gap value to add spacing between elements */
+  }
+  
+  .formStyle label,
+  .formStyle input,
+  .formStyle button {
+    margin-right: 17px; /* Adjust the margin value to add spacing between elements */
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .flashcard-grid {
+    display: grid;
+    background-color: #232731;
+    grid-template-columns: repeat(3, minmax(15rem, 1fr));
+    justify-items: center;
+    align-items: center;
+    max-width: 100%; /* Add a max-width constraint to prevent the flashcards from exceeding the width of the container */
+    margin: 0 auto; /* Center the flashcard grid within its container */
+    padding-bottom: 1.75rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #31343e;
+  }
+  
+  .flashcard {
+    width: 100%; /* Set the width of each individual flashcard to 100% */
+  }
+  
 }
 footer {
   text-align: center;
