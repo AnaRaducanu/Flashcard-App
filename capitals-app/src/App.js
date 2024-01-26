@@ -24,33 +24,33 @@ export const flashCardArray = [
   },
   {
     id: "q4",
-    question: "Which world-famous park in New York City features iconic landmarks such as Bethesda Terrace, Bow Bridge, and Strawberry Fields?",
+    question: "What iconic neoclassical structure serves as a symbol of the United States and is located in Washington, D.C.?",
     answer:
-      "Central Park in New York City is a world-famous urban oasis, home to iconic landmarks like Bethesda Terrace, Bow Bridge, and Strawberry Fields, offering a retreat from the city's hustle with its scenic beauty and cultural significance.",
+      "The iconic neoclassical structure is the United States Capitol, situated in Washington, D.C. The Capitol is not only the meeting place of the U.S. Congress but also a symbol of the country's democratic principles and governance.",
   },
   {
     id: "q5",
-    question: "What architectural wonder defines Dubai's skyline?",
+    question: "What historic thermal bath, recognized as a UNESCO World Heritage site, attracts visitors seeking relaxation and wellness in Budapest?",
     answer:
-      "Dubai's skyline is characterized by the Burj Khalifa, the world's tallest skyscraper at 828 meters (2,717 feet), symbolizing the city's commitment to architectural innovation and modernity.",
+      "The Gellért Baths in Budapest, Hungary, is a renowned thermal bath complex with a rich history and stunning architecture. It has been a popular destination for those seeking relaxation, spa treatments, and the therapeutic benefits of its thermal waters.",
   },
   {
     id: "q6",
-    question: "What stunning garden in Singapore showcases the city-state's commitment to sustainability and nature amidst urban development?",
+    question: "What is the name of the famous Berlin wall that divided East and West Berlin during the Cold War?",
     answer:
-      "Gardens by the Bay in Singapore, with its impressive Supertree Grove and Flower Dome, exemplifies the city-state's dedication to sustainability and blending nature with urban living.",
+      "The Berlin Wall was the historical barrier that separated East and West Berlin. Its remnants and a preserved section, known as the East Side Gallery, remain as a poignant reminder of the city's history.",
   },
   {
     id: "q7",
-    question: "What iconic tower in Kuala Lumpur held the title of the world's tallest twin towers upon its completion?",
+    question: "What popular Viennese dessert, consisting of layers of sponge cake, chocolate, and apricot jam, is often topped with a shiny chocolate glaze?",
     answer:
-      "The Petronas Towers in Kuala Lumpur, once the world's tallest twin towers, stand as a remarkable symbol of Malaysia's modern architectural achievements.",
+      "The delightful Sachertorte is a famous Viennese dessert renowned for its exquisite combination of flavors. This indulgent cake, often enjoyed with a dollop of whipped cream, has become a symbol of Austrian culinary excellence.",
   },
   {
     id: "q8",
-    question: " What landmark in Istanbul connects Europe and Asia?",
+    question: " In Prague, what picturesque district is famous for its narrow winding streets, colorful buildings, and artisan shops, creating a charming atmosphere reminiscent of a fairytale?",
     answer:
-      "The Bosporus Bridge links Europe and Asia, serving as a symbolic and vital connection in Istanbul.",
+      "Mala Strana, or the Lesser Town, is renowned in Prague for its enchanting ambiance. With its narrow winding streets, colorful facades, and artisan shops, this district offers a fairytale-like setting that captivates the hearts of those exploring its historic charm.",
   },
   {
     id: "q9",
@@ -59,9 +59,9 @@ export const flashCardArray = [
   },
   {
     id: "q10",
-    question: "What vibrant avenue in Barcelona is renowned for its unique architecture and lively atmosphere?",
+    question: "Which traditional Chinese performing art, featuring colorful costumes, intricate choreography, and symbolic gestures, is often performed in Beijing's cultural events and theaters?",
     answer:
-      "La Rambla in Barcelona is a vibrant avenue celebrated for its distinctive architecture, bustling street life, and diverse cultural attractions, making it a focal point for locals and tourists alike.",
+      "Peking Opera, with its vibrant costumes, elaborate makeup, and stylized movements, is a traditional Chinese performing art form often featured at cultural events and theaters in Beijing. Its combination of music, vocal performance, mime, dance, and acrobatics makes it a captivating cultural experience.",
   },
   {
     id: "q11",
