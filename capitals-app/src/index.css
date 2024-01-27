@@ -37,7 +37,7 @@ code {
 
 .flashcard-grid {
   display: grid;
-  background-color: #232731;
+  background-color: #b193b9;
   grid-template-columns: repeat(3, minmax(15rem, 1fr));
   justify-items: center;
   align-items: center;

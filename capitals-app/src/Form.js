@@ -66,7 +66,7 @@ export default function Form(props) {
         onClick={handleSubmit}
         style={{
           color: "white",
-          backgroundColor: "#F67280",
+          backgroundColor: "#F08080",
           borderRadius: "9px",
           border: "3px solid #07B1DF",
           height: "45px",

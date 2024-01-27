@@ -35,7 +35,7 @@ export default function FlashcardItem(props) {
           top: "10px",
           right: "10px",
           backgroundColor: "transparent",
-          color: "#f92f60",
+          color: "#C06C84",
           fontWeight: "bold",
           fontSize: "30px",
           fontFamily: "Segoe UI",
@@ -62,7 +62,7 @@ export default function FlashcardItem(props) {
               marginTop: "0.2rem",
             }}
           >
-            🤔
+            🌍
           </p>
           <p style={{ textAlign: "center" }}>{props.flashcard.question}</p>
         </>
