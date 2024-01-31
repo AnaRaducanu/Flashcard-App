@@ -62,3 +62,22 @@ footer {
 #footer-logo {
   height: 1.1rem;
 }
+/* Default width for all screens */
+.element {
+  width: auto; /* or any default width value */
+}
+
+/* Media query for screens up to 600px width */
+@media screen and (max-width: 600px) {
+  .element {
+    width: 100%; /* Adjust the width for smaller screens */
+  }
+}
+
+/* Media query for screens larger than 1200px width */
+@media screen and (min-width: 1200px) {
+  .element {
+    width: 30rem; /* Adjust the width for larger screens */
+  }
+}
+

@@ -12,9 +12,6 @@ export default function FlashcardItem(props) {
       onClick={handleClick}
       style={{
         backgroundColor: "#323949",
-        height: "11rem",
-        width: "20rem",
-
         color: "white",
         fontSize: "18px",
         display: "flex" /* Enable flexbox layout */,
@@ -25,6 +22,10 @@ export default function FlashcardItem(props) {
         margin: "0.5rem",
         paddingTop: "0.1rem",
         position: "relative",
+        height: "11rem",
+        width: "20rem",
+         // Media query for smaller screens
+ 
       }}
     >
       <button
